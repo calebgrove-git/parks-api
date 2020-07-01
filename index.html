@@ -14,8 +14,9 @@
     </header>
     <main>
       <form>
-        <label for="states" id="stateLabel">States:</label>
-        <select name="states" id="0" required>
+        <label for="0" id="stateLabel">States:</label>
+        <select name="states" id="0" size="1" required>
+          <option value="" selected="selected">Select a State</option>
           <option value="AL">Alabama</option>
           <option value="AK">Alaska</option>
           <option value="AZ">Arizona</option>
@@ -74,7 +75,7 @@
         <input type="submit" value="submit" id="formSubmit" />
       </form>
       <section class="hidden">
-        <h1>Results</h1>
+        <h2>Results</h2>
       </section>
     </main>
     <script

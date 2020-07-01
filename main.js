@@ -1,10 +1,12 @@
+'use strict';
+
 const apiKey = 'YnTp07EFjZbmJ4nxTff3eezhZbXolsytp1o6p66Y';
 const searchURL = 'https://developer.nps.gov/api/v1/parks';
 function addStateHTML(i) {
   return (
     `<select name="state" id="` +
     i +
-    `" required>
+    `" size="1" required>
 <option value="" selected="selected">Select a State</option>
 <option value="AL">Alabama</option>
 <option value="AK">Alaska</option>
