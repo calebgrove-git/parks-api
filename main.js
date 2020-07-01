@@ -127,7 +127,7 @@ function resultsHTML(element) {
     `</li>
   <li>Website URL: <a href="` +
     element.url +
-    `">` +
+    `" target="_blank">` +
     element.url +
     `</a></li>
   </ul><hr>`
